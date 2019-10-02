@@ -43,6 +43,17 @@ hr {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0;
+  width: 350px;
+  margin: 0;
+}
+
 p {
   line-height: 2;
 }
@@ -60,7 +71,7 @@ p {
 }
 
 .middle-container {
-  margin: 100px 0px;
+  margin: 100px 0;
 }
 .bottom-container {
   background-color: #66BFBF;
@@ -111,7 +122,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   color: #FCF9EA !important;
   font-size: 14px;
-  text-shadow: 1px 1px 0px #DEDEDE;
+  text-shadow: 1px 1px 0 #DEDEDE;
   box-shadow: 1px 1px 1px #BEE2F9;
   padding: 10px 25px;
   -moz-border-radius: 16px;
@@ -131,4 +142,12 @@ p {
   background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
   background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
   background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+
+.navbar {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  border-radius: 16px;
+  background-color: #66BFBF;
 }
